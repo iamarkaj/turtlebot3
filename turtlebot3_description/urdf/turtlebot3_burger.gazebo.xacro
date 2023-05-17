@@ -126,7 +126,7 @@
         </noise>
       </ray>
       <plugin name="gazebo_ros_lds_lfcd_controller" filename="libgazebo_ros_laser.so">
-        <topicName>/laser/scan</topicName>
+        <topicName>scan</topicName>
         <frameName>base_scan</frameName>
       </plugin>
     </sensor>
